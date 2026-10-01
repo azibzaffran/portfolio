@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Shaamalan Kanthan — Computer Science (Web Technology) student at UTHM. IT Club President, Dean's List achiever, developer specialising in Laravel, Flutter, and UI/UX design.">
+  <meta name="keywords"
+    content="Shaamalan Kanthan, portfolio, web developer, Flutter, Laravel, UTHM, UI/UX designer, Figma, Firebase, Malaysia">
+  <meta name="author" content="Shaamalan Kanthan">
+  <meta property="og:title" content="Shaamalan Kanthan — Portfolio">
+  <meta property="og:description" content="CS Student & UI/UX Developer. Laravel · Flutter · Figma · Firebase.">
+  <meta property="og:url" content="https://shaamalan.vercel.app">
+  <meta property="og:type" content="website">
+
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <title>Azib Zaffran — Portfolio</title>
+</head>
+
+<body>
+
+  <!--============ HEADER ============-->
+  <header class="header" id="header">
+    <nav class="nav">
+      <a href="#home" class="nav__logo">Azib<span>.</span></a>
+
+      <ul class="nav__list" id="nav-list">
+        <li><a href="#home" class="nav__link active" id="nl-home">Home</a></li>
+        <li><a href="#about" class="nav__link" id="nl-about">About</a></li>
+        <li><a href="#skills" class="nav__link" id="nl-skills">Skills</a></li>
+        <li><a href="#education" class="nav__link" id="nl-education">Education</a></li>
+        <li><a href="#services" class="nav__link" id="nl-services">Services</a></li>
+        <li><a href="#work" class="nav__link" id="nl-work">Work</a></li>
+        <li><a href="#contact" class="nav__link" id="nl-contact">Contact</a></li>
+      </ul>
+
+      <div class="nav__right">
+        <button class="nav__theme" id="theme-button" aria-label="Toggle theme">
+          <i class="bx bx-moon"></i>
+        </button>
+        <a href="#contact" class="nav__cta">Hire me</a>
+        <i class="bx bx-menu nav__hamburger" id="nav-hamburger" role="button" aria-label="Open menu"></i>
+      </div>
+    </nav>
+
+    <!-- Mobile menu -->
+    <div class="nav__mobile" id="nav-mobile">
+      <ul class="nav__list">
+        <li><a href="#home" class="nav__link">Home</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#education" class="nav__link">Education</a></li>
+        <li><a href="#services" class="nav__link">Services</a></li>
+        <li><a href="#work" class="nav__link">Work</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+
+    <!--============ HERO ============-->
+    <section class="hero" id="home">
+      <div class="hero__orb hero__orb--1"></div>
+      <div class="hero__orb hero__orb--2"></div>
+
+      <div class="hero__inner">
+        <!-- Left -->
+        <div class="hero__left">
+          <div class="hero__eyebrow">
+            <div class="hero__status">
+              <span class="hero__dot"></span>
+              Available for work
+            </div>
+            <div class="hero__divider-v"></div>
+            <span class="hero__index">01 / INTRO</span>
+          </div>
+
+          <h1 class="hero__name">
+            <span class="hero__name-line">Shaamalan</span>
+            <span class="hero__name-line hero__name-line--outline">Kanthan</span>
+          </h1>
+
+          <p class="hero__tagline">
+            CS student at UTHM crafting accessible, user-centred digital products.
+            Specialising in <em style="color: #fff; font-style:normal;">web development</em>,
+            <em style="color: #fff; font-style:normal;">mobile apps</em>, and
+            <em style="color: #fff; font-style:normal;">UI/UX design</em>.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#work" class="btn btn--primary">
+              <i class="bx bx-grid-alt"></i> View my work
+            </a>
+            <a href="assets/pdf/Ansel-Cv.pdf" download class="btn btn--ghost">
+              <i class="bx bx-download"></i> Download CV
+            </a>
+          </div>
+
+          <div class="hero__meta">
+            <div class="hero__stat">
+              <span class="hero__stat-n">3.59</span>
+              <span class="hero__stat-l">CGPA</span>
+            </div>
+            <div class="hero__stat">
+              <span class="hero__stat-n">30<span>+</span></span>
+              <span class="hero__stat-l">Events Led</span>
+            </div>
+            <div class="hero__stat">
+              <span class="hero__stat-n">10<span>+</span></span>
+              <span class="hero__stat-l">Projects</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right -->
+        <div class="hero__right">
+          <div class="hero__img-wrap">
+            <div class="hero__img-bg"></div>
+            <div class="hero__img-inner">
+              <img src="assets/img/perfil.png" alt="Shaamalan Kanthan" class="hero__img">
+            </div>
+
+            <!-- Rotating ring -->
+            <div class="hero__ring">
+              <svg viewBox="0 0 90 90" width="90" height="90">
+                <defs>
+                  <path id="ring-path" d="M 45,45 m -32,0 a 32,32 0 1,1 64,0 a 32,32 0 1,1 -64,0" />
+                </defs>
+                <text font-size="10.5" fill="hsl(262,60%,70%)" letter-spacing="1.6" font-family="Inter,sans-serif"
+                  font-weight="500">
+                  <textPath href="#ring-path">UI/UX · LARAVEL · FLUTTER · FIGMA · </textPath>
+                </text>
+              </svg>
+              <div class="hero__ring-icon">
+                <i class="bx bx-code-alt" style="color: hsl(262,83%,68%); font-size:1.1rem;"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__social">
+            <a href="https://www.linkedin.com/in/shaamalan-kanthan/" target="_blank" class="hero__social-a"
+              aria-label="LinkedIn">
+              <i class="bx bxl-linkedin"></i>
+            </a>
+            <a href="https://github.com/Shaam143" target="_blank" class="hero__social-a" aria-label="GitHub">
+              <i class="bx bxl-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__scroll">
+        <span class="hero__scroll-text">Scroll</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+    <!--============ MARQUEE / TECH STACK ============-->
+    <div class="marquee-section">
+      <div class="marquee-track" id="marquee-track">
+        <!-- duplicated for seamless loop -->
+        <span class="marquee-item"><i class="bx bxl-html5"></i> HTML&nbsp;/&nbsp;CSS</span>
+        <span class="marquee-sep">·</span>
+        <span class="marquee-item"><i class="bx bxl-javascript"></i> JavaScript</span>
+        <span class="marquee-sep">·</span>
+        <span class="marquee-item"><i class="bx bxl-react"></i> React</span>
+        <span class="marquee-sep">·</span>
+        <span class="marquee-item"><i class="bx bxl-flutter"></i> Flutter</span>
+        <span class="marquee-sep">·</span>
+        <span class="marquee-item"><i class="bx bxl-php"></i> PHP</span>
+        <span class="marquee-sep">·</span>
+        <span class="marquee-item"><i class="bx bx-leaf"></i> Laravel</span>
+        <span class="marquee-sep">·</span>
+        <span class="marquee-item"><i class="bx bxl-firebase"></i> Firebase</span>
+        <span class="marquee-sep">·</span>
+        <span class="marquee-item"><i class="bx bxl-figma"></i> Figma</span>
+        <span class="marquee-sep">·</span>
+        <span class="marquee-item"><i class="bx bx-data"></i> MySQL</span>
+        <span class="marquee-sep">·</span>
+        <span class="marquee-item"><i class="bx bxl-git"></i> Git</span>
+        <span class="marquee-sep">·</span>
+        <!-- duplicate -->
+        <span class="marquee-item"><i class="bx bxl-html5"></i> HTML&nbsp;/&nbsp;CSS</span>
+        <span class="marquee-sep">·</span>
+        <span class="marquee-item"><i class="bx bxl-javascript"></i> JavaScript</span>
+        <span class="marquee-sep">·</span>
+        <span class="marquee-item"><i class="bx bxl-react"></i> React</span>
+        <span class="marquee-sep">·</span>
+        <span class="marquee-item"><i class="bx bxl-flutter"></i> Flutter</span>
+        <span class="marquee-sep">·</span>
+        <span class="marquee-item"><i class="bx bxl-php"></i> PHP</span>
+        <span class="marquee-sep">·</span>
+        <span class="marquee-item"><i class="bx bx-leaf"></i> Laravel</span>
+        <span class="marquee-sep">·</span>
+        <span class="marquee-item"><i class="bx bxl-firebase"></i> Firebase</span>
+        <span class="marquee-sep">·</span>
+        <span class="marquee-item"><i class="bx bxl-figma"></i> Figma</span>
+        <span class="marquee-sep">·</span>
+        <span class="marquee-item"><i class="bx bx-data"></i> MySQL</span>
+        <span class="marquee-sep">·</span>
+        <span class="marquee-item"><i class="bx bxl-git"></i> Git</span>
+        <span class="marquee-sep">·</span>
+      </div>
+    </div>
+
+    <!--============ ABOUT ============-->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section__head">
+          <div class="section__num">02</div>
+          <div class="section__title-wrap">
+            <span class="label">My Intro</span>
+            <h2 class="section__title">About Me</h2>
+            <p class="section__sub">Final-year CS student building accessible, user-centred digital systems.</p>
+          </div>
+        </div>
+
+        <div class="about__layout">
+          <!-- Image col -->
+          <div class="about__img-col">
+            <div class="about__img-frame">
+              <img src="assets/img/about.jpg" alt="Shaamalan working at desk" class="about__img">
+              <div class="about__img-caption">
+                <i class="bx bxs-graduation about__caption-icon"></i>
+                <div class="about__caption-text">
+                  <strong>Universiti Tun Hussein Onn Malaysia</strong>
+                  B.Sc. Computer Science (Web Technology) — Oct 2023–Present
+                </div>
+              </div>
+            </div>
+
+            <!-- GitHub calendar inside about -->
+            <div class="about__github">
+              <div class="about__github-head">
+                <i class="bx bxl-github"></i>
+                <span class="about__github-title">GitHub Activity</span>
+              </div>
+              <div class="calendar">Loading GitHub contributions…</div>
+            </div>
+          </div>
+
+          <!-- Content col -->
+          <div class="about__content-col">
+            <p class="about__text">
+              I'm <em>Shaamalan</em>, a final-year Computer Science student at UTHM with a CGPA of <em>3.59</em> and
+              <em>Dean's List</em> recognition. I served as <em>President of the Information Technology Club</em>,
+              leading a 40-member committee across 30 events for 1,000+ participants.
+            </p>
+            <p class="about__text">
+              I'm certified in <em>Cisco Networking (CCNA)</em> and <em>Huawei AI (HCIA-AI)</em>.
+              My work spans full-stack web development, cross-platform mobile apps, and accessible UI/UX design —
+              always with a focus on the people who will actually use the product.
+            </p>
+
+            <div class="about__pills">
+              <span class="tag">Laravel</span>
+              <span class="tag">Flutter</span>
+              <span class="tag">Figma</span>
+              <span class="tag">Firebase</span>
+              <span class="tag">Next.js</span>
+              <span class="tag">CCNA</span>
+              <span class="tag">HCIA-AI</span>
+              <span class="tag">WCAG</span>
+            </div>
+
+            <div class="about__kpi-row">
+              <div class="about__kpi">
+                <span class="about__kpi-n">3.59</span>
+                <span class="about__kpi-l">CGPA</span>
+              </div>
+              <div class="about__kpi">
+                <span class="about__kpi-n">30<em>+</em></span>
+                <span class="about__kpi-l">Events Led</span>
+              </div>
+              <div class="about__kpi">
+                <span class="about__kpi-n">10<em>+</em></span>
+                <span class="about__kpi-l">Projects</span>
+              </div>
+            </div>
+
+            <div class="about__actions">
+              <a href="#contact" class="btn btn--primary"><i class="bx bx-send"></i> Get in touch</a>
+              <a href="assets/pdf/Ansel-Cv.pdf" download class="btn btn--ghost"><i class="bx bx-download"></i> Download
+                CV</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--============ SKILLS ============-->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section__head">
+          <div class="section__num">03</div>
+          <div class="section__title-wrap">
+            <span class="label">My Abilities</span>
+            <h2 class="section__title">Technical Skills</h2>
+          </div>
+        </div>
+
+        <div class="skills__grid">
+          <div class="skills__col">
+            <div class="skills__col-header">
+              <div class="skills__col-icon"><i class="bx bx-layout"></i></div>
+              <span class="skills__col-title">Frontend, Mobile & Design</span>
+            </div>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-item__left"><i class="bx bxl-html5"></i><span class="skill-item__name">HTML /
+                    CSS</span></div>
+                <span class="skill-item__level skill-item__level--adv">Advanced</span>
+              </div>
+              <div class="skill-item">
+                <div class="skill-item__left"><i class="bx bxl-javascript"></i><span
+                    class="skill-item__name">JavaScript</span></div>
+                <span class="skill-item__level skill-item__level--mid">Intermediate</span>
+              </div>
+              <div class="skill-item">
+                <div class="skill-item__left"><i class="bx bxl-flutter"></i><span class="skill-item__name">Flutter /
+                    Dart</span></div>
+                <span class="skill-item__level skill-item__level--mid">Intermediate</span>
+              </div>
+              <div class="skill-item">
+                <div class="skill-item__left"><i class="bx bxl-figma"></i><span class="skill-item__name">Figma</span>
+                </div>
+                <span class="skill-item__level skill-item__level--adv">Advanced</span>
+              </div>
+              <div class="skill-item">
+                <div class="skill-item__left"><i class="bx bx-universal-access"></i><span class="skill-item__name">WCAG
+                    Standards</span></div>
+                <span class="skill-item__level skill-item__level--mid">Intermediate</span>
+              </div>
+              <div class="skill-item">
+                <div class="skill-item__left"><i class="bx bxl-bootstrap"></i><span
+                    class="skill-item__name">Bootstrap</span></div>
+                <span class="skill-item__level skill-item__level--mid">Intermediate</span>
+              </div>
+              <div class="skill-item">
+                <div class="skill-item__left"><i class="bx bxl-react"></i><span class="skill-item__name">React</span>
+                </div>
+                <span class="skill-item__level skill-item__level--mid">Intermediate</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__col">
+            <div class="skills__col-header">
+              <div class="skills__col-icon"><i class="bx bx-server"></i></div>
+              <span class="skills__col-title">Backend Development</span>
+            </div>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-item__left"><i class="bx bxl-php"></i><span class="skill-item__name">PHP</span></div>
+                <span class="skill-item__level skill-item__level--mid">Intermediate</span>
+              </div>
+              <div class="skill-item">
+                <div class="skill-item__left"><i class="bx bx-leaf"></i><span class="skill-item__name">Laravel</span>
+                </div>
+                <span class="skill-item__level skill-item__level--mid">Intermediate</span>
+              </div>
+              <div class="skill-item">
+                <div class="skill-item__left"><i class="bx bxs-data"></i><span
+                    class="skill-item__name">FilamentPHP</span></div>
+                <span class="skill-item__level">Basic</span>
+              </div>
+              <div class="skill-item">
+                <div class="skill-item__left"><i class="bx bxl-firebase"></i><span
+                    class="skill-item__name">Firebase</span></div>
+                <span class="skill-item__level skill-item__level--mid">Intermediate</span>
+              </div>
+              <div class="skill-item">
+                <div class="skill-item__left"><i class="bx bx-data"></i><span class="skill-item__name">MySQL</span>
+                </div>
+                <span class="skill-item__level skill-item__level--mid">Intermediate</span>
+              </div>
+              <div class="skill-item">
+                <div class="skill-item__left"><i class="bx bxl-git"></i><span class="skill-item__name">Git</span></div>
+                <span class="skill-item__level skill-item__level--mid">Intermediate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--============ LEADERSHIP & WORK ============-->
+    <section class="section">
+      <div class="container">
+        <div class="section__head">
+          <div class="section__num">04</div>
+          <div class="section__title-wrap">
+            <span class="label">My Journey</span>
+            <h2 class="section__title">Leadership & Work</h2>
+          </div>
+        </div>
+
+        <div class="xp__layout">
+          <!-- Student Leadership -->
+          <div>
+            <div class="xp__col-title">Student Leadership</div>
+            <div class="timeline">
+              <div class="tl-item">
+                <div class="tl-item__line">
+                  <div class="tl-item__dot"></div>
+                  <div class="tl-item__stem"></div>
+                </div>
+                <div class="tl-item__body">
+                  <div class="tl-item__head">
+                    <span class="tl-item__role">Strategic Advisor</span>
+                    <span class="tl-item__period">2026</span>
+                  </div>
+                  <div class="tl-item__org">Information Technology Club (ITC), UTHM</div>
+                  <div class="tl-item__desc">Providing strategic direction and mentorship to the club executive
+                    committee.</div>
+                </div>
+              </div>
+
+              <div class="tl-item">
+                <div class="tl-item__line">
+                  <div class="tl-item__dot"></div>
+                  <div class="tl-item__stem"></div>
+                </div>
+                <div class="tl-item__body">
+                  <div class="tl-item__head">
+                    <span class="tl-item__role">President</span>
+                    <span class="tl-item__period">2025</span>
+                  </div>
+                  <div class="tl-item__org">Information Technology Club (ITC), UTHM</div>
+                  <div class="tl-item__desc">Led 40-member committee; executed 30 events for 1,000+ participants
+                    including DINS.</div>
+                </div>
+              </div>
+
+              <div class="tl-item">
+                <div class="tl-item__line">
+                  <div class="tl-item__dot"></div>
+                  <div class="tl-item__stem"></div>
+                </div>
+                <div class="tl-item__body">
+                  <div class="tl-item__head">
+                    <span class="tl-item__role">Head Prefect</span>
+                    <span class="tl-item__period">2025</span>
+                  </div>
+                  <div class="tl-item__org">School Prefectorial Board</div>
+                  <div class="tl-item__desc">Led the student prefect board with a focus on discipline and student
+                    welfare.</div>
+                </div>
+              </div>
+
+              <div class="tl-item">
+                <div class="tl-item__line">
+                  <div class="tl-item__dot"></div>
+                  <div class="tl-item__stem"></div>
+                </div>
+                <div class="tl-item__body">
+                  <div class="tl-item__head">
+                    <span class="tl-item__role">Exco Multimedia</span>
+                    <span class="tl-item__period">2024</span>
+                  </div>
+                  <div class="tl-item__org">Information Technology Club (ITC), UTHM</div>
+                  <div class="tl-item__desc">Managed digital content, photography, and design assets for club events.
+                  </div>
+                </div>
+              </div>
+
+              <div class="tl-item">
+                <div class="tl-item__line">
+                  <div class="tl-item__dot"></div>
+                  <div class="tl-item__stem"></div>
+                </div>
+                <div class="tl-item__body">
+                  <div class="tl-item__head">
+                    <span class="tl-item__role">Head Photographer</span>
+                    <span class="tl-item__period">2018 – 2025</span>
+                  </div>
+                  <div class="tl-item__org">The Lasallian</div>
+                  <div class="tl-item__desc">Led school photography team across 7 years of events and publications.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Work Experience -->
+          <div>
+            <div class="xp__col-title">Work Experience</div>
+            <div class="timeline">
+              <div class="tl-item">
+                <div class="tl-item__line">
+                  <div class="tl-item__dot"></div>
+                  <div class="tl-item__stem"></div>
+                </div>
+                <div class="tl-item__body">
+                  <div class="tl-item__head">
+                    <span class="tl-item__role">Freelance Web Dev & UI/UX</span>
+                    <span class="tl-item__period">Jan 2024 – Present</span>
+                  </div>
+                  <div class="tl-item__org">Self-employed · Batu Pahat</div>
+                  <div class="tl-item__desc">Delivering end-to-end web applications and design systems for local
+                    clients. Stack: Laravel, React, Figma.</div>
+                </div>
+              </div>
+
+              <div class="tl-item">
+                <div class="tl-item__line">
+                  <div class="tl-item__dot"></div>
+                  <div class="tl-item__stem"></div>
+                </div>
+                <div class="tl-item__body">
+                  <div class="tl-item__head">
+                    <span class="tl-item__role">Sales Assistant</span>
+                    <span class="tl-item__period">Jul – Sep 2024</span>
+                  </div>
+                  <div class="tl-item__org">iStore by C-Zone</div>
+                  <div class="tl-item__desc">Apple product sales and premium customer experience at an authorised Apple
+                    reseller.</div>
+                </div>
+              </div>
+
+              <div class="tl-item">
+                <div class="tl-item__line">
+                  <div class="tl-item__dot"></div>
+                  <div class="tl-item__stem"></div>
+                </div>
+                <div class="tl-item__body">
+                  <div class="tl-item__head">
+                    <span class="tl-item__role">Tearista</span>
+                    <span class="tl-item__period">May – Sep 2023</span>
+                  </div>
+                  <div class="tl-item__org">Tealive</div>
+                  <div class="tl-item__desc">Fast-paced customer service in a high-volume bubble tea retail chain.</div>
+                </div>
+              </div>
+
+              <div class="tl-item">
+                <div class="tl-item__line">
+                  <div class="tl-item__dot"></div>
+                  <div class="tl-item__stem"></div>
+                </div>
+                <div class="tl-item__body">
+                  <div class="tl-item__head">
+                    <span class="tl-item__role">Asst. Secretary</span>
+                    <span class="tl-item__period">2021 – 2023</span>
+                  </div>
+                  <div class="tl-item__org">Student Representative Council</div>
+                  <div class="tl-item__desc">Maintained records, minutes, and student welfare communications for the
+                    SRC.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--============ EDUCATION ============-->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section__head">
+          <div class="section__num">05</div>
+          <div class="section__title-wrap">
+            <span class="label">My Background</span>
+            <h2 class="section__title">Education & Certifications</h2>
+          </div>
+        </div>
+
+        <div class="edu__grid">
+          <!-- Education cards -->
+          <div class="edu-card">
+            <span class="edu-card__type">Degree</span>
+            <div class="edu-card__degree">B.Sc. Computer Science (Web Technology) with Honours</div>
+            <div class="edu-card__inst">Universiti Tun Hussein Onn Malaysia (UTHM)</div>
+            <div class="edu-card__period">Oct 2023 – Present · Batu Pahat, Johor</div>
+            <div class="edu-card__pills">
+              <span class="edu-card__pill">CGPA 3.59</span>
+              <span class="edu-card__pill">🏅 Dean's List ×2</span>
+            </div>
+            <ul class="edu-card__details">
+              <li>FYP: Smart Accessibility System for Campus</li>
+              <li>Web Dev · Mobile App · Database · CMS</li>
+            </ul>
+          </div>
+
+          <div class="edu-card">
+            <span class="edu-card__type">Pre-University</span>
+            <div class="edu-card__degree">Sijil Tinggi Pelajaran Malaysia (STPM) — Physical Sciences</div>
+            <div class="edu-card__inst">Kolej Tingkatan Enam Petaling Jaya</div>
+            <div class="edu-card__period">Aug 2021 – Feb 2023 · Petaling Jaya, Selangor</div>
+            <div class="edu-card__pills">
+              <span class="edu-card__pill">MUET Band 5.0</span>
+            </div>
+            <ul class="edu-card__details">
+              <li>Physics · Chemistry · Mathematics</li>
+            </ul>
+          </div>
+
+          <!-- Cert cards -->
+          <div class="edu__cert-col">
+            <div class="cert-card">
+              <div class="cert-card__icon"><i class="bx bxs-network-chart"></i></div>
+              <div>
+                <span class="cert-card__issuer">Cisco Networking Academy</span>
+                <div class="cert-card__name">CCNA: Introduction to Networks</div>
+                <div class="cert-card__detail">IP addressing, routing and switching · 50+ practical labs on network
+                  connectivity</div>
+              </div>
+            </div>
+
+            <div class="cert-card">
+              <div class="cert-card__icon"><i class="bx bx-brain"></i></div>
+              <div>
+                <span class="cert-card__issuer">Huawei ICT Academy</span>
+                <div class="cert-card__name">HCIA-AI V3.5</div>
+                <div class="cert-card__detail">Deep learning architectures · AI solution deployment & core AI concepts
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--============ SERVICES ============-->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__head">
+          <div class="section__num">06</div>
+          <div class="section__title-wrap">
+            <span class="label">What I Offer</span>
+            <h2 class="section__title">Services</h2>
+          </div>
+        </div>
+
+        <div class="services__grid">
+          <div class="service-card">
+            <div class="service-card__num">01</div>
+            <i class="bx bx-code-alt service-card__icon"></i>
+            <h3 class="service-card__title">Web Development</h3>
+            <p class="service-card__desc">Efficient, accessible web applications built with modern technologies and best
+              practices.</p>
+            <ul class="service-card__list">
+              <li class="service-card__list-item">Responsive website design</li>
+              <li class="service-card__list-item">HTML5, CSS3, JavaScript</li>
+              <li class="service-card__list-item">PHP / Laravel / MySQL backend</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card__num">02</div>
+            <i class="bx bx-mobile-alt service-card__icon"></i>
+            <h3 class="service-card__title">Mobile Development</h3>
+            <p class="service-card__desc">Cross-platform mobile apps that solve real-world problems with clean,
+              native-feeling UIs.</p>
+            <ul class="service-card__list">
+              <li class="service-card__list-item">Flutter & Dart development</li>
+              <li class="service-card__list-item">UI/UX implementation for mobile</li>
+              <li class="service-card__list-item">Firebase database integration</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card__num">03</div>
+            <i class="bx bx-palette service-card__icon"></i>
+            <h3 class="service-card__title">UI/UX Design</h3>
+            <p class="service-card__desc">Intuitive, accessible, visually compelling experiences — designed around the
+              people using them.</p>
+            <ul class="service-card__list">
+              <li class="service-card__list-item">High-fidelity Figma prototypes</li>
+              <li class="service-card__list-item">WCAG accessibility compliance</li>
+              <li class="service-card__list-item">Brand identity & social assets</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--============ WORK ============-->
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section__head">
+          <div class="section__num">07</div>
+          <div class="section__title-wrap">
+            <span class="label">My Portfolio</span>
+            <h2 class="section__title">Selected Work</h2>
+          </div>
+        </div>
+
+        <div class="work__filters">
+          <button class="work__filter-btn active-work" data-filter="all">All</button>
+          <button class="work__filter-btn" data-filter=".web">Web</button>
+          <button class="work__filter-btn" data-filter=".mobile">Mobile</button>
+        </div>
+
+        <div class="work__grid" id="work-container">
+
+          <!-- Featured: Smart Campus -->
+          <div class="work-card work-card--featured mix web">
+            <div class="work-card__media">
+              <div class="browser-frame">
+                <div class="browser-frame__bar">
+                  <span class="browser-frame__dots"><span></span><span></span><span></span></span>
+                  <span class="browser-frame__url">fyp.shaamalan.link</span>
+                </div>
+                <div class="browser-frame__viewport">
+                  <iframe src="https://fyp.shaamalan.link/" loading="lazy" title="Smart Campus live preview"
+                    tabindex="-1"></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="work-card__top">
+              <h3 class="work-card__title">Smart Campus Accessibility System</h3>
+              <div class="work-card__arrow"><i class="bx bx-arrow-back" style="transform: rotate(135deg);"></i></div>
+            </div>
+            <p class="work-card__desc">FYP — interactive campus map for students with disabilities, built with Laravel
+              and MapLibre GL.</p>
+            <div class="work-card__stack">
+              <span class="work-card__tag">Laravel</span>
+              <span class="work-card__tag">FilamentPHP</span>
+              <span class="work-card__tag">MapLibre GL</span>
+              <span class="work-card__tag">MySQL</span>
+            </div>
+            <div class="work-card__links">
+              <a href="https://fyp.shaamalan.link/" target="_blank" class="work-card__link"><i
+                  class="bx bx-link-external"></i> Live</a>
+              <span class="work-card__link-sep">·</span>
+              <a href="https://github.com/Shaam143" target="_blank" class="work-card__link"><i
+                  class="bx bxl-github"></i> GitHub</a>
+            </div>
+          </div>
+
+
+
+          <!-- SnackStop -->
+          <div class="work-card mix web">
+            <div class="work-card__media">
+              <div class="browser-frame">
+                <div class="browser-frame__bar">
+                  <span class="browser-frame__dots"><span></span><span></span><span></span></span>
+                  <span class="browser-frame__url">snackstop-leed.vercel.app</span>
+                </div>
+                <div class="browser-frame__viewport">
+                  <iframe src="https://snackstop-leed.vercel.app/" loading="lazy" title="SnackStop live preview"
+                    tabindex="-1"></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="work-card__top">
+              <h3 class="work-card__title">SnackStop</h3>
+              <div class="work-card__arrow"><i class="bx bx-arrow-back" style="transform: rotate(135deg);"></i></div>
+            </div>
+            <p class="work-card__desc">Food ordering website with React — clean UX for browsing and ordering snacks.</p>
+            <div class="work-card__stack">
+              <span class="work-card__tag">React</span>
+              <span class="work-card__tag">CSS</span>
+              <span class="work-card__tag">Vercel</span>
+            </div>
+            <div class="work-card__links">
+              <a href="https://snackstop-leed.vercel.app/" target="_blank" class="work-card__link"><i
+                  class="bx bx-link-external"></i> Live</a>
+              <span class="work-card__link-sep">·</span>
+              <a href="https://github.com/Shaam143/snackstop" target="_blank" class="work-card__link"><i
+                  class="bx bxl-github"></i> GitHub</a>
+            </div>
+          </div>
+
+          <!-- DevCafe -->
+          <div class="work-card mix web">
+            <div class="work-card__media">
+              <div class="browser-frame">
+                <div class="browser-frame__bar">
+                  <span class="browser-frame__dots"><span></span><span></span><span></span></span>
+                  <span class="browser-frame__url">devcafe-fsktm.vercel.app</span>
+                </div>
+                <div class="browser-frame__viewport">
+                  <iframe src="https://devcafe-fsktm.vercel.app/" loading="lazy" title="DevCafe live preview"
+                    tabindex="-1"></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="work-card__top">
+              <h3 class="work-card__title">DevCafe — University Cafe App</h3>
+              <div class="work-card__arrow"><i class="bx bx-arrow-back" style="transform: rotate(135deg);"></i></div>
+            </div>
+            <p class="work-card__desc">Full-stack university cafe ordering system. Students browse menus, place orders
+              and get live status updates.</p>
+            <div class="work-card__stack">
+              <span class="work-card__tag">Next.js</span>
+              <span class="work-card__tag">React</span>
+              <span class="work-card__tag">Vercel</span>
+            </div>
+            <div class="work-card__links">
+              <a href="https://devcafe-fsktm.vercel.app/" target="_blank" class="work-card__link"><i
+                  class="bx bx-link-external"></i> Live site</a>
+              <span class="work-card__link-sep">·</span>
+              <a href="https://github.com/Shaam143/devcafe" target="_blank" class="work-card__link"><i
+                  class="bx bxl-github"></i> GitHub</a>
+            </div>
+          </div>
+
+          <!-- PPKI Marketplace -->
+          <div class="work-card mix mobile">
+            <div class="work-card__media">
+              <div class="browser-frame">
+                <div class="browser-frame__bar">
+                  <span class="browser-frame__dots"><span></span><span></span><span></span></span>
+                  <span class="browser-frame__url">ppki-marketplace-mad.web.app</span>
+                </div>
+                <div class="browser-frame__viewport">
+                  <iframe src="https://ppki-marketplace-mad.web.app/" loading="lazy"
+                    title="PPKI Marketplace live preview" tabindex="-1"></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="work-card__top">
+              <h3 class="work-card__title">PPKI Marketplace</h3>
+              <div class="work-card__arrow"><i class="bx bx-arrow-back" style="transform: rotate(135deg);"></i></div>
+            </div>
+            <p class="work-card__desc">Flutter e-commerce app empowering Special Education students as sellers.</p>
+            <div class="work-card__stack">
+              <span class="work-card__tag">Flutter</span>
+              <span class="work-card__tag">Firebase</span>
+              <span class="work-card__tag">Figma</span>
+            </div>
+            <div class="work-card__links">
+              <a href="https://ppki-marketplace-mad.web.app/" target="_blank" class="work-card__link"><i
+                  class="bx bx-link-external"></i> Live site</a>
+              <span class="work-card__link-sep">·</span>
+              <a href="https://github.com/Shaam143" target="_blank" class="work-card__link"><i
+                  class="bx bxl-github"></i> GitHub</a>
+            </div>
+          </div>
+
+          <!-- OneHeartPR -->
+          <div class="work-card mix web">
+            <div class="work-card__media">
+              <div class="browser-frame">
+                <div class="browser-frame__bar">
+                  <span class="browser-frame__dots"><span></span><span></span><span></span></span>
+                  <span class="browser-frame__url">oneheartpr.com</span>
+                </div>
+                <div class="browser-frame__viewport">
+                  <iframe src="https://oneheartpr.vercel.app/" loading="lazy" title="OneHeartPR live preview"
+                    tabindex="-1"></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="work-card__top">
+              <h3 class="work-card__title">OneHeartPR</h3>
+              <div class="work-card__arrow"><i class="bx bx-arrow-back" style="transform: rotate(135deg);"></i></div>
+            </div>
+            <p class="work-card__desc">Latest project: OneHeartPR.</p>
+            <div class="work-card__stack">
+              <span class="work-card__tag">Web</span>
+            </div>
+            <div class="work-card__links">
+              <a href="https://oneheartpr.com/" target="_blank" class="work-card__link"><i
+                  class="bx bx-link-external"></i> Live</a>
+            </div>
+          </div>
+
+          <!-- Smart Bill Split -->
+          <div class="work-card mix web">
+            <div class="work-card__media">
+              <div class="browser-frame">
+                <div class="browser-frame__bar">
+                  <span class="browser-frame__dots"><span></span><span></span><span></span></span>
+                  <span class="browser-frame__url">smart-bill-split.vercel.app</span>
+                </div>
+                <div class="browser-frame__viewport">
+                  <iframe src="https://smart-bill-split.vercel.app/" loading="lazy"
+                    title="Smart Bill Split live preview" tabindex="-1"></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="work-card__top">
+              <h3 class="work-card__title">Smart Bill Split</h3>
+              <div class="work-card__arrow"><i class="bx bx-arrow-back" style="transform: rotate(135deg);"></i></div>
+            </div>
+            <p class="work-card__desc">Bill splitting calculator with tip distribution.</p>
+            <div class="work-card__stack">
+              <span class="work-card__tag">JavaScript</span>
+              <span class="work-card__tag">Vercel</span>
+            </div>
+            <div class="work-card__links">
+              <a href="https://smart-bill-split.vercel.app/" target="_blank" class="work-card__link"><i
+                  class="bx bx-link-external"></i> Live</a>
+            </div>
+          </div>
+
+          <div class="work-card mix web">
+            <div class="work-card__media">
+              <div class="browser-frame">
+                <div class="browser-frame__bar">
+                  <span class="browser-frame__dots"><span></span><span></span><span></span></span>
+                  <span class="browser-frame__url">ppki-marketplace-mad.web.app</span>
+                </div>
+                <div class="browser-frame__viewport">
+                  <iframe src="https://ppki-marketplace-mad.web.app/" loading="lazy"
+                    title="TaskFlow Academy live preview" tabindex="-1"></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="work-card__top">
+              <h3 class="work-card__title">TaskFlow Academy</h3>
+              <div class="work-card__arrow"><i class="bx bx-arrow-back" style="transform: rotate(135deg);"></i></div>
+            </div>
+            <p class="work-card__desc">Educational platform for task and course management.</p>
+            <div class="work-card__stack">
+              <span class="work-card__tag">Laravel</span>
+              <span class="work-card__tag">PHP</span>
+              <span class="work-card__tag">MySQL</span>
+            </div>
+            <div class="work-card__links">
+              <a href="https://ppki-marketplace-mad.web.app/" target="_blank" class="work-card__link"><i
+                  class="bx bx-link-external"></i> Live</a>
+              <span class="work-card__link-sep">·</span>
+              <a href="https://github.com/Shaam143/taskflow-academy" target="_blank" class="work-card__link"><i
+                  class="bx bxl-github"></i> GitHub</a>
+            </div>
+          </div>
+
+          <!-- KHN Mahass -->
+          <div class="work-card mix web">
+            <div class="work-card__media">
+              <div class="browser-frame">
+                <div class="browser-frame__bar">
+                  <span class="browser-frame__dots"><span></span><span></span><span></span></span>
+                  <span class="browser-frame__url">khn-mahass.vercel.app</span>
+                </div>
+                <div class="browser-frame__viewport">
+                  <iframe src="https://khn-mahass.vercel.app/" loading="lazy" title="KHN Mahass live preview"
+                    tabindex="-1"></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="work-card__top">
+              <h3 class="work-card__title">KHN Mahass</h3>
+              <div class="work-card__arrow"><i class="bx bx-arrow-back" style="transform: rotate(135deg);"></i></div>
+            </div>
+            <p class="work-card__desc">Web application for KHN Mahass.</p>
+            <div class="work-card__stack">
+              <span class="work-card__tag">Web</span>
+              <span class="work-card__tag">Vercel</span>
+            </div>
+            <div class="work-card__links">
+              <a href="https://khn-mahass.vercel.app/" target="_blank" class="work-card__link"><i
+                  class="bx bx-link-external"></i> Live</a>
+            </div>
+          </div>
+
+          <!-- FSKTM Tokoh -->
+          <div class="work-card mix web">
+            <div class="work-card__media">
+              <div class="browser-frame">
+                <div class="browser-frame__bar">
+                  <span class="browser-frame__dots"><span></span><span></span><span></span></span>
+                  <span class="browser-frame__url">fsktm-tokoh.vercel.app</span>
+                </div>
+                <div class="browser-frame__viewport">
+                  <iframe src="https://fsktm-tokoh.vercel.app/" loading="lazy" title="FSKTM Tokoh live preview"
+                    tabindex="-1"></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="work-card__top">
+              <h3 class="work-card__title">FSKTM Tokoh</h3>
+              <div class="work-card__arrow"><i class="bx bx-arrow-back" style="transform: rotate(135deg);"></i></div>
+            </div>
+            <p class="work-card__desc">Web platform for FSKTM Tokoh.</p>
+            <div class="work-card__stack">
+              <span class="work-card__tag">Web</span>
+              <span class="work-card__tag">Vercel</span>
+            </div>
+            <div class="work-card__links">
+              <a href="https://fsktm-tokoh.vercel.app/" target="_blank" class="work-card__link"><i
+                  class="bx bx-link-external"></i> Live</a>
+            </div>
+          </div>
+
+          <!-- CodeConnect UTHM -->
+          <div class="work-card mix web">
+            <div class="work-card__media">
+              <div class="browser-frame">
+                <div class="browser-frame__bar">
+                  <span class="browser-frame__dots"><span></span><span></span><span></span></span>
+                  <span class="browser-frame__url">codeconnectuthm.vercel.app</span>
+                </div>
+                <div class="browser-frame__viewport">
+                  <iframe src="https://codeconnectuthm.vercel.app/" loading="lazy" title="CodeConnect UTHM live preview"
+                    tabindex="-1"></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="work-card__top">
+              <h3 class="work-card__title">CodeConnect UTHM</h3>
+              <div class="work-card__arrow"><i class="bx bx-arrow-back" style="transform: rotate(135deg);"></i></div>
+            </div>
+            <p class="work-card__desc">Development project for CodeConnect UTHM.</p>
+            <div class="work-card__stack">
+              <span class="work-card__tag">Web</span>
+              <span class="work-card__tag">Vercel</span>
+            </div>
+            <div class="work-card__links">
+              <a href="https://codeconnectuthm.vercel.app/" target="_blank" class="work-card__link"><i
+                  class="bx bx-link-external"></i> Live</a>
+            </div>
+          </div>
+
+          <!-- ZeroBite -->
+          <div class="work-card work-card--text mix web">
+            <i class="bx bxs-leaf work-card__icon"></i>
+            <div class="work-card__top">
+              <h3 class="work-card__title">ZeroBite</h3>
+              <div class="work-card__arrow"><i class="bx bx-arrow-back" style="transform: rotate(135deg);"></i></div>
+            </div>
+            <p class="work-card__desc">Food waste reduction platform connecting donors and recipients.</p>
+            <div class="work-card__stack">
+              <span class="work-card__tag">Laravel</span>
+              <span class="work-card__tag">Tailwind</span>
+              <span class="work-card__tag">MySQL</span>
+            </div>
+            <div class="work-card__links">
+              <a href="https://github.com/Shaam143" target="_blank" class="work-card__link"><i
+                  class="bx bxl-github"></i> GitHub</a>
+            </div>
+          </div>
+
+          <!-- VibeHire -->
+          <div class="work-card work-card--text mix web">
+            <i class="bx bxs-briefcase work-card__icon"></i>
+            <div class="work-card__top">
+              <h3 class="work-card__title">VibeHire</h3>
+              <div class="work-card__arrow"><i class="bx bx-arrow-back" style="transform: rotate(135deg);"></i></div>
+            </div>
+            <p class="work-card__desc">Job search website with listing and filtering functionality.</p>
+            <div class="work-card__stack">
+              <span class="work-card__tag">HTML</span>
+              <span class="work-card__tag">CSS</span>
+              <span class="work-card__tag">JS</span>
+            </div>
+            <div class="work-card__links">
+              <a href="https://www.linkedin.com/in/shaamalan-kanthan/details/projects/" target="_blank"
+                class="work-card__link"><i class="bx bxl-linkedin"></i> LinkedIn</a>
+            </div>
+          </div>
+
+          <!-- CareerConnect -->
+          <div class="work-card work-card--text mix web">
+            <i class="bx bxs-briefcase work-card__icon"></i>
+            <div class="work-card__top">
+              <h3 class="work-card__title">CareerConnect</h3>
+              <div class="work-card__arrow"><i class="bx bx-arrow-back" style="transform: rotate(135deg);"></i></div>
+            </div>
+            <p class="work-card__desc">Job recruitment platform connecting employers and candidates.</p>
+            <div class="work-card__stack">
+              <span class="work-card__tag">Node.js</span>
+              <span class="work-card__tag">Express</span>
+              <span class="work-card__tag">MySQL</span>
+            </div>
+            <div class="work-card__links">
+              <a href="https://e-recruitment-nrvt.onrender.com/" target="_blank" class="work-card__link"><i
+                  class="bx bx-link-external"></i> Live</a>
+              <span class="work-card__link-sep">·</span>
+              <a href="https://github.com/danielimans/e-Recruitment" target="_blank" class="work-card__link"><i
+                  class="bx bxl-github"></i> GitHub</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!--============ TESTIMONIALS ============-->
+    <section class="section">
+      <div class="container">
+        <div class="section__head">
+          <div class="section__num">08</div>
+          <div class="section__title-wrap">
+            <span class="label">References</span>
+            <h2 class="section__title">Endorsements</h2>
+          </div>
+        </div>
+
+        <div class="testimonials__grid">
+          <a href="https://community.uthm.edu.my/suriati" target="_blank" class="testimonial-card"
+            style="text-decoration: none; color: inherit; cursor: pointer;">
+            <div class="testimonial-card__quote">&ldquo;</div>
+            <p class="testimonial-card__text">Shaamalan consistently displayed outstanding leadership qualities, guiding
+              his peers with great initiative and dedication in various university programs.</p>
+            <div class="testimonial-card__person">
+              <div>
+                <span class="testimonial-card__name">Puan Suriawati binti Suparjoh</span>
+                <span class="testimonial-card__role">Senior Lecturer, UTHM</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://community.uthm.edu.my/hana" target="_blank" class="testimonial-card"
+            style="text-decoration: none; color: inherit; cursor: pointer;">
+            <div class="testimonial-card__quote">&ldquo;</div>
+            <p class="testimonial-card__text">Shaamalan demonstrated excellent initiative in his Final Year Project,
+              developing an impactful accessibility system for the campus community.</p>
+            <div class="testimonial-card__person">
+              <div>
+                <span class="testimonial-card__name">Puan Hanayanti binti Hafit</span>
+                <span class="testimonial-card__role">Senior Lecturer, UTHM</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--============ CONTACT ============-->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section__head">
+          <div class="section__num">09</div>
+          <div class="section__title-wrap">
+            <span class="label">Get In Touch</span>
+            <h2 class="section__title">Let's work together</h2>
+          </div>
+        </div>
+
+        <div class="contact__panel">
+          <!-- Big CTA text -->
+          <div class="contact__cta">
+            <h3 class="contact__heading">Have an idea?<br><span class="gtext">Let's build it.</span></h3>
+            <p class="contact__sub">
+              Open to new opportunities, freelance projects, and collaborations.
+              I respond within 24 hours.
+            </p>
+            <div class="contact__availability">
+              <span class="hero__dot" style="width:8px;height:8px;"></span>
+              <span>Available for work — based in Petaling Jaya, Malaysia</span>
+            </div>
+          </div>
+
+          <!-- Contact links -->
+          <div class="contact__links-grid">
+            <a href="mailto:ai230133@student.uthm.edu.my" class="contact__link-card">
+              <div class="contact__link-icon"><i class="bx bx-envelope"></i></div>
+              <div>
+                <span class="contact__link-label">Email me directly</span>
+                <span class="contact__link-value">ai230133@student.uthm.edu.my</span>
+              </div>
+              <i class="bx bx-right-arrow-alt contact__link-arrow"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/shaamalan-kanthan/" target="_blank" class="contact__link-card">
+              <div class="contact__link-icon"><i class="bx bxl-linkedin"></i></div>
+              <div>
+                <span class="contact__link-label">Connect on LinkedIn</span>
+                <span class="contact__link-value">linkedin.com/in/shaamalan-kanthan</span>
+              </div>
+              <i class="bx bx-right-arrow-alt contact__link-arrow"></i>
+            </a>
+
+            <a href="https://github.com/Shaam143" target="_blank" class="contact__link-card">
+              <div class="contact__link-icon"><i class="bx bxl-github"></i></div>
+              <div>
+                <span class="contact__link-label">Browse my code</span>
+                <span class="contact__link-value">github.com/Shaam143</span>
+              </div>
+              <i class="bx bx-right-arrow-alt contact__link-arrow"></i>
+            </a>
+
+            <a href="assets/pdf/Ansel-Cv.pdf" download class="contact__link-card">
+              <div class="contact__link-icon"><i class="bx bx-file"></i></div>
+              <div>
+                <span class="contact__link-label">Download résumé</span>
+                <span class="contact__link-value">Shaamalan_Kanthan_CV.pdf</span>
+              </div>
+              <i class="bx bx-download contact__link-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!--============ FOOTER ============-->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <span class="footer__logo">Shaamalan<span>.</span></span>
+        <nav class="footer__links">
+          <a href="#about" class="footer__link">About</a>
+          <a href="#skills" class="footer__link">Skills</a>
+          <a href="#work" class="footer__link">Work</a>
+          <a href="#contact" class="footer__link">Contact</a>
+        </nav>
+        <span class="footer__copy">© 2026 Shaamalan Kanthan</span>
+      </div>
+    </div>
+  </footer>
+
+  <!--============ SCROLL UP ============-->
+  <a href="#home" class="scrollup" id="scroll-up" aria-label="Back to top">
+    <i class="bx bx-up-arrow-alt"></i>
+  </a>
+
+  <!--============ SCRIPTS ============-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+  <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+  <script>
+    GitHubCalendar(".calendar", "Shaam143", { responsive: true, tooltips: true, global_stats: false });
+  </script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
